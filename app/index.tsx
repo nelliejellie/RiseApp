@@ -19,7 +19,7 @@ export default function Index() {
   }, []);
   return (
     <View style={styles.Container}>
-      <StatusBarComponent />
+      <StatusBarComponent content="light-content" backgroundColor="#0898a0" />
       <View style={styles.innerContainer}>
         <View>
           <View style={{ flexDirection: "row", justifyContent: "center" }}>

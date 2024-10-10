@@ -1,10 +1,11 @@
 import { Image, StyleSheet, Platform, View, Text } from "react-native";
 import React from "react";
-import { styles } from "../Styles/SplashStyle";
+import StatusBarComponent from "@/components/StatusBarComponent";
 
 export default function HomeScreen() {
   return (
-    <View style={styles.Container}>
+    <View>
+      <StatusBarComponent content="dark-content" backgroundColor="#fff" />
       <Text>Hello world</Text>
     </View>
   );
