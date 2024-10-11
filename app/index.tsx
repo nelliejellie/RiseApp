@@ -11,7 +11,7 @@ export default function Index() {
   useEffect(() => {
     const timer = setTimeout(() => {
       // Navigate to another screen, e.g., 'profile'
-      router.push("/(tabs)");
+      router.push("/Splash");
     }, 3000);
 
     // Clear timeout if the component unmounts
